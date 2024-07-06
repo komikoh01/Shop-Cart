@@ -1,0 +1,23 @@
+.ecommerce-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.filter{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-filter{
+  display: flex;
+  gap: 8px;
+}
+
+.price-label{
+  display: flex;
+  gap: 4px;
+}
+

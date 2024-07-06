@@ -1,0 +1,16 @@
+body{
+    background: hsl(199, 43%, 35%);
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    font-size: 2rem;
+}
+
+select{
+    outline: none;
+    border-radius: 12px;
+}

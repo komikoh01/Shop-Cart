@@ -1,0 +1,40 @@
+
+.product-list{
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.product{
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(214, 34%, 17%);
+  list-style: none;
+  padding: 12px;
+}
+
+.product-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product button{
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.remove{
+  background-color: hsl(192, 95%, 29%);
+  outline: 2px solid hsl(0, 89%, 35%);
+  border: none;
+}
+
+.add{
+  border: none;
+  background-color: hsl(192, 95%, 29%);
+}
